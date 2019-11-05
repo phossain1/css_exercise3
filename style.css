@@ -1,0 +1,60 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5B5B5B;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.location h1 {
+  font-size: 20px;
+  line-height: 130%
+}
+
+.location h3 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+.content {
+  background-color:#E5E5E5;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding-top: 10px;
+  padding-right: 10px; /* counts toward width */
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+nav {
+  background-color: #000000;
+  margin-top: 0;
+  margin-right: 50px; /* counts toward width */
+  margin-bottom: 0;
+  margin-left: 50px; /* counts toward width */
+  padding: 10px 0 15px 15px;
+  width: 400px;
+}
+
+.restaurant-list {
+  margin-top: 0;
+  margin-right: 50px; /* counts toward width */
+  margin-bottom: 50px;
+  margin-left: 50px; /* counts toward width */
+  padding: 0;
+  width: 400px; /* counts toward width */
+}
+
+.arrow {
+  display: inline-block;
+  float: right;
+}
+#css_exercise3
